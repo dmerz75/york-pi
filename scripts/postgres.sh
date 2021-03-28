@@ -12,12 +12,11 @@ create_db () {
     psql
     > create database test;
     psql test
-    test=> create table people (name text, company text);
-    test=> insert into people values ('Ben Nuttall', 'Raspberry Pi
-    Foundation');
-    test=> insert into people values ('Rikki Endsley', 'Red Hat');
-    test=> select * from people;
-    test=> select name from people where company = 'Red Hat';
+    > create table people (name text, company text);
+    > insert into people values ('Ben Nuttall', 'Raspberry Pi Foundation');
+    > insert into people values ('Rikki Endsley', 'Red Hat');
+    > select * from people;
+    > select name from people where company = 'Red Hat';
 }
 
 # create_db
