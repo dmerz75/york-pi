@@ -20,5 +20,13 @@ create_db () {
 }
 
 # create_db
+#
+
+
+# 1. create db
+# 2. ufw
+# 3. use port forwarding, connect with putty/tunnel
+#    Run ifconfig on the Raspberry Pi. Try Putty with that address.
+# 4. https://www.postgresql.org/ftp/pgadmin/pgadmin4/v5.1/windows/
 
 
